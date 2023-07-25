@@ -49,14 +49,13 @@ function power(x,y){
 console.log(power(2,2));
 console.log(power(3,2));
 
-
 // KATA 5 8kyu
 // https://www.codewars.com/kata/5977618080ef220766000022
 function usdcny(usd) {
   let cny = 6.75 * usd;
-  return `${cny.toFixed(2)}`
+  return `${cny.toFixed(2)}`;
 }
 
-console.log(usdcny(15))
-console.log(usdcny(465))
+console.log(usdcny(15));
+console.log(usdcny(465));
 
